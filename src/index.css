@@ -285,9 +285,6 @@ main {
   transition: transform 0.3s ease-out;
 }
 
-.challenge-item-details.expanded .challenge-item-details-icon {
-  transform: rotate(180deg);
-}
 
 .challenge-item-description {
   margin: 0;
@@ -316,9 +313,6 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  /* animation: 모달 창이 열리면 자동으로 적용됨 */
-  /* forwards: 효과 모두 진행 완료 시 상태 유지 */
-  animation: slide-up-fade-in 0.3s ease-out forwards;
 }
 
 /* 애니메이션 정의 - 0% 시작 ~ 100% 종료 */
